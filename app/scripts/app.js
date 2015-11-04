@@ -18,7 +18,7 @@ angular
   ])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/anothertest', {
+      .when('/another', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl',
         controllerAs: 'main'
